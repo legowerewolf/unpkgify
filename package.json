@@ -1,0 +1,26 @@
+{
+  "name": "unpkgify",
+  "version": "1.0.0",
+  "description": "Gulp plugin to rewrite `node_modules` imports to unpkg.com module URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legowerewolf/unpkgify.git"
+  },
+  "keywords": [
+    "gulp",
+    "unpkg.com"
+  ],
+  "author": "Legowerewolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legowerewolf/unpkgify/issues"
+  },
+  "homepage": "https://github.com/legowerewolf/unpkgify#readme",
+  "dependencies": {
+    "gulp-replace": "^1.0.0"
+  }
+}
