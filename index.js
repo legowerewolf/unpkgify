@@ -10,9 +10,9 @@ module.exports = () => replace(importRegex, (match) => {
     let packageName = match.match(importRegex)[2];
     let packageSubpath = match.match(importRegex)[3];
 
-    let packageVersion = JSON.parse(readFileSync("./package.json")).dependencies[pkgname];
+    let packageVersion = JSON.parse(readFileSync("./package.json")).dependencies[packageName];
 
-    if (!['.', '/'].includes(pkgname[0])) {
+    if (!['.', '/'].includes(packageName[0])) {
         return match.replace(new RegExp(`${fullImport}`), `https://unpkg.com/${packageName}@${packageVersion}${packageSubpath}?module`);
     }
 
