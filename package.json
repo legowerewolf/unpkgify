@@ -1,6 +1,6 @@
 {
   "name": "unpkgify",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Gulp plugin to rewrite `node_modules` imports to unpkg.com module URLs",
   "main": "index.js",
   "scripts": {
